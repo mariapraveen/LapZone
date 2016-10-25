@@ -1,13 +1,78 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>login</title>
+<link rel="stylesheet" href="maria3.css" >
+<title>
+welcome to Lapzone
+</title>
+<style>
+h1
+{
+	color:blue;
+}
+input:focus
+{
+	background-color:grey;
+	border-color:blue;
+}
+.g{
+	
+	margin:auto;
+}
+table{
+ 
+	text-align:left;
+	margin:auto;
+}
+body
+{  
+	text-align:center;
+	margin:auto;
+}
+
+.z{
+	color:red;
+	font-weight:bold;
+}
+.y{
+	color:blue;
+		font-weight:bold;
+}
+.w{
+	color:green;
+		font-weight:bold;
+		transform:rotat
+}
+</style>
 </head>
-<body>
-<a href="aa">index</a>
+<body >
+
+<b><h3>SIGN IN</b></h3>
 <br>
+<form action="validate" method="POST">
+<table>
+<tr>
+<td>
+<label for="UN" />User Name</label></td>
+<td> : </td>
+<td><input id="UN" placeholder="user name" name="user"/>
+</td>
+</tr>
+<br>
+<tr>
+<td>
+<label for="PW" />password</label></td>
+<td> : </td>
+<td>
+<input type="password" id="PW" placeholder="password" name="pwd"/>
+</td>
+</tr>
+<br>
+</table>
+<p >
+<input class="g" type="submit" value="submit" /></p>
+</form>
+</div>
 </body>
 </html>
+
